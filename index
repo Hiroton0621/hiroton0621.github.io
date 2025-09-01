@@ -108,19 +108,19 @@
       <!-- 写真表示 -->
       <div class="photo-grid">
         <div>
-          <img src="①たまごだけ.jpeg" alt="条件① オムレツ">
+          <img src="01.egg.jpeg" alt="条件① オムレツ">
           <div class="caption">条件① たまごだけ</div>
         </div>
         <div>
-          <img src="②牛乳と塩.jpeg" alt="条件② オムレツ">
+          <img src="02.milk.jpeg" alt="条件② オムレツ">
           <div class="caption">条件② 牛乳と塩</div>
         </div>
         <div>
-          <img src="③砂糖とみりん.jpeg" alt="条件③ オムレツ">
+          <img src="03.sugar.jpeg" alt="条件③ オムレツ">
           <div class="caption">条件③ マヨネーズ</div>
         </div>
         <div>
-          <img src="④マヨネーズ.jpeg" alt="条件④ オムレツ">
+          <img src="04.mayo.jpeg" alt="条件④ オムレツ">
           <div class="caption">条件④ 砂糖とみりん</div>
         </div>
       </div>
@@ -131,8 +131,8 @@
       <h2>まとめ</h2>
       <p>試した中で一番おいしかったのは <strong class="good">② 牛乳＆塩入り</strong> のオムレツでした！</p>
       <div class="summary-photo">
-        <img src="まとめ牛乳と塩中身.jpeg" alt="② 牛乳と塩入りオムレツの中身">
-        <div class="caption">② 牛乳＆塩入りオムレツの断面</div>
+        <img src="Summary_milk.jpeg" alt="② 牛乳と塩入りオムレツの中身">
+        <div class="caption">② 牛乳＆塩入りオムレツの中身</div>
       </div>
     </section>
   </main>
