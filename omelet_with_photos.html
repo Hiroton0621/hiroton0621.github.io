@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ふわとろオムレツ自由研究 – 実験結果</title>
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    body{margin:0;font-family:'Zen Kaku Gothic New',sans-serif;background:#fafafa;color:#222;line-height:1.7}
+    header{background:#fff7e6;padding:40px 20px;text-align:center;border-bottom:1px solid #ddd}
+    header h1{margin:0;font-size:2rem}
+    header p{margin:8px 0 0;color:#555}
+    main{max-width:1000px;margin:40px auto;padding:0 20px}
+    .card{background:#fff;border:1px solid #ddd;border-radius:14px;padding:20px;margin-bottom:24px}
+    h2{margin:0 0 12px}
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    th,td{border:1px solid #ccc;padding:10px;text-align:center;font-size:1.1rem}
+    th{background:#ffeecf}
+    /* 記号の色 */
+    .good{color:#1976d2;font-weight:bold}   /* 〇 = 青 */
+    .normal{color:#ff8f00;font-weight:bold} /* △ = オレンジ */
+    .bad{color:#c62828;font-weight:bold}    /* × = 赤 */
+    .too{color:#e91e63;font-weight:bold}    /* ！ = ピンク */
+    .legend{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px}
+    .pill{display:inline-block;padding:6px 12px;border:1px solid #ccc;border-radius:999px;background:#fff;font-size:14px;font-weight:700}
+    .photo-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin-top:16px}
+    .photo-grid img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:10px;border:1px solid #ccc}
+    .caption{text-align:center;font-size:0.9rem;margin-top:6px;color:#555}
+    .summary-photo{margin-top:16px;text-align:center}
+    .summary-photo img{max-width:500px;width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:10px;border:1px solid #ccc}
+    .summary-photo .caption{text-align:center;font-size:0.9rem;margin-top:6px;color:#555}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ふわとろオムレツ自由研究</h1>
+    <p>研究者: Hiroto Sonoda / 実施日: 2025年8月25日</p>
+  </header>
+
+  <main>
+    <!-- 実験条件 -->
+    <section class="card">
+      <h2>実験条件と材料の分量</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>条件</th>
+            <th>材料と分量</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>①</td><td>たまご 2個</td></tr>
+          <tr><td>②</td><td>たまご 2個 + 牛乳 大さじ3 + 塩 小さじ1/4</td></tr>
+          <tr><td>③</td><td>たまご 2個 + マヨネーズ</td></tr>
+          <tr><td>④</td><td>たまご 2個 + 砂糖 + みりん</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- 実験結果 -->
+    <section class="card">
+      <h2>実験結果</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>条件</th>
+            <th>やわらかさ</th>
+            <th>甘さ</th>
+            <th>かかった時間</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>①</td>
+            <td class="normal">△</td>
+            <td class="normal">△</td>
+            <td>—</td>
+          </tr>
+          <tr>
+            <td>②</td>
+            <td class="good">〇</td>
+            <td class="good">〇</td>
+            <td>1分40秒</td>
+          </tr>
+          <tr>
+            <td>③</td>
+            <td class="normal">△</td>
+            <td class="bad">×</td>
+            <td>2分2秒</td>
+          </tr>
+          <tr>
+            <td>④</td>
+            <td class="normal">△</td>
+            <td class="too">！</td>
+            <td>2分18秒</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- 記号の凡例 -->
+      <div class="legend">
+        <span class="pill"><span class="good">〇</span> = すごくいい</span>
+        <span class="pill"><span class="normal">△</span> = ふつう</span>
+        <span class="pill"><span class="bad">×</span> = ちょっと…</span>
+        <span class="pill"><span class="too">！</span> = やりすぎ</span>
+      </div>
+
+      <!-- 写真表示 -->
+      <div class="photo-grid">
+        <div>
+          <img src="①たまごだけ.jpeg" alt="条件① オムレツ">
+          <div class="caption">条件① たまごだけ</div>
+        </div>
+        <div>
+          <img src="②牛乳と塩.jpeg" alt="条件② オムレツ">
+          <div class="caption">条件② 牛乳と塩</div>
+        </div>
+        <div>
+          <img src="③砂糖とみりん.jpeg" alt="条件③ オムレツ">
+          <div class="caption">条件③ マヨネーズ</div>
+        </div>
+        <div>
+          <img src="④マヨネーズ.jpeg" alt="条件④ オムレツ">
+          <div class="caption">条件④ 砂糖とみりん</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- まとめ -->
+    <section class="card">
+      <h2>まとめ</h2>
+      <p>試した中で一番おいしかったのは <strong class="good">② 牛乳＆塩入り</strong> のオムレツでした！</p>
+      <div class="summary-photo">
+        <img src="まとめ牛乳と塩中身.jpeg" alt="② 牛乳と塩入りオムレツの中身">
+        <div class="caption">② 牛乳＆塩入りオムレツの断面</div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
